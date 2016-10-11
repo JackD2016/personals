@@ -1,0 +1,256 @@
+/*定义全局格式*/
+body,ul,img,li,h1,h2,h3,h4,input,textarea,ol,dl,dt,dd ,p{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+li{
+    list-style: none
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+};
+/*!*清除浮动*!*/
+.clearfix:after{
+    content:"";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+}
+.clearfix{
+    zoom: 1;
+}
+
+/*!*通用格式*!*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*header*/
+#header{
+    width:100%;
+    position: relative;
+    height: auto;
+    background: url("../imges/9.jpeg");
+    background-size: cover;
+    padding-bottom: 5em;
+}
+.navbar-default{
+    background: #0f0f0f;
+    border: none;
+    height:1.5em;
+
+}
+.navbar-default .navbar-header .navbar-brand{
+    margin-left:1em;
+    color: #fff;
+    font-size: 2em;
+}
+.navbar-default .navbar-collapse .navbar-nav{
+    margin-right: 4em;
+}
+.navbar-default .navbar-collapse .navbar-nav a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 0.8em;
+}
+/*.navbar-default .navbar-collapse .navbar-nav .active{
+    background: none;
+}*/
+.navbar-default .navbar-collapse .navbar-nav .active a{
+    color: #5bc0de;
+    background: none;
+}
+.navbar-default .navbar-collapse .navbar-nav li a:hover{
+    color: #e81abb;
+}
+#header .text{
+    position: relative;
+    margin: 2em auto;
+    text-align: center;
+    padding-top: 18em;
+}
+#header .text p{
+    font-size: 1.5em;
+    color: #fff;
+    padding: 1.5em;
+}
+#header .text h3{
+    font-size: 1.9em;
+    color: #fff;
+}
+#header .btn-default{
+    margin-top: 5em;
+    padding: 0.6em 2.5em;
+    background: rgba(250,250,250,0.1);
+    border: 1px solid #fff;
+
+}
+#header .btn-default a{
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+#header .btn-default:hover{
+    background: rgba(250,250,250,0.4);
+}
+
+.navbar-default .in{
+    background: rgba(0,0,0,0.5);
+    border: none;
+    padding: 0;
+}
+/*
+.navbar-default .in ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navbar-default .in ul li{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-default .in ul li:hover{
+    background:rgba(0,0,0,0.8);
+    }
+*/
+
+
+/*introduce*/
+
+#introduce{
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+    background: #F1F1F1;
+}
+#introduce h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+#introduce .col-md-3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+#introduce .col-md-7 {
+    padding-bottom: 50px;
+}
+#introduce .col-md-7 p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+#introduce .col-md-7 .bt{
+    display: inline-block;
+    background: #229187;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 8px;
+    transition: all .3s ease-in-out;
+    font-weight: 300;
+}
+
+/*kills*/
+#kills{
+    width: 100%;
+    padding-top: 70px;
+    background: #F1F1F1;
+    padding-bottom: 30px;
+}
+#kills h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+#kills p{
+    line-height: 30px;
+    text-align: right;
+}
+#kills  .col-md-12 h3{
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+/*product*/
+#product{
+    width: 100%;
+    padding-top: 70px ;
+
+}
+#product .carousel-control{
+    background: none;
+}
+#product .carousel-caption{
+    bottom: 10px;
+}
+#product .col-md-12 h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+/*contact*/
+#contact{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+#contact .row{
+    margin-bottom: 20px;
+}
+#contact .col-md-12 h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#contact .col-md-12 a{
+    margin: 10px 40%;
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgba(255,255,255,0.3);
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#footer{
+    width: 100%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+}
+#top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: none;
+    background: rdga(0,0,0,0.3);
+}
+#footer p{
+    padding: 20px;
+}
